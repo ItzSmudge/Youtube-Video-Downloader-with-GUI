@@ -1,4 +1,5 @@
 #Youtube Downloader GUI
+#ThunderboltSH
 #Limitations - no validation for invalid URLs but a fix will be coming soon
 #Program will be reuploaded with more comments later
 from tkinter import *
