@@ -5,3 +5,5 @@ Please do not redistribute this program without acknowledgement of the owner(Thu
 I hope you will find this program useful :)
 
 REQUIREMENTS : The module pytube has to be installed for the program to be run.
+COMMAND : pip install pytube (windows)
+          sudo apt install python3-pytube (ubuntu/Debian linux distros)
