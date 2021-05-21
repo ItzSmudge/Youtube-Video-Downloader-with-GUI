@@ -9,7 +9,7 @@ COMMAND :
 
           pip install pytube(windows)
 
-          sudo apt install python3-pytube (ubuntu/Debian linux distros)
+          sudo apt install python3-pytube (ubuntu/Debian based linux distros)
           
    
 ![image](https://user-images.githubusercontent.com/74146327/119103492-4db58080-ba2c-11eb-84c7-04f95e9cede5.png)
