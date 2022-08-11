@@ -22,9 +22,10 @@ def download():
 	    statusLabel["text"] = "DOWNLOAD SUCCESSFUL! CHECK THE PROGRAM FOLDER"
 
 url = StringVar()
-#https://www.youtube.com/watch?v=BWqus0Yp3M8
+
 instructionLabel = Label(root, font=("Agentcy FB",20,"bold"), text="Paste youtube url here:")
 instructionLabel.grid(row=0, column=0, sticky=S+N+E+W )
+
 urlEntry = Entry(root, font=("Agentcy FB",20,"bold"), textvariable=url, insertwidth=1, width=70)
 urlEntry.grid(row=1, column=0, sticky=S+N+E+W )
 
