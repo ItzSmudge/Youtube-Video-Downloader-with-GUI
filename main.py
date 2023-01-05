@@ -9,6 +9,7 @@ root = Tk()
 root.title("YouTube Video Downloader")
 root.resizable(False, False)
 
+font = ("Agentcy FB", 20, "bold")
 def error():
 	statusLabel["text"] = "DOWNLOAD UNSUCCESSFUL! INVALID URL!"
 
@@ -23,16 +24,16 @@ def download():
 
 url = StringVar()
 
-instructionLabel = Label(root, font=("Agentcy FB",20,"bold"), text="Paste youtube url here:")
+instructionLabel = Label(root, font=font, text="Paste youtube url here:")
 instructionLabel.grid(row=0, column=0, sticky=S+N+E+W )
 
-urlEntry = Entry(root, font=("Agentcy FB",20,"bold"), textvariable=url, insertwidth=1, width=70)
+urlEntry = Entry(root, font=font, textvariable=url, insertwidth=1, width=70)
 urlEntry.grid(row=1, column=0, sticky=S+N+E+W )
 
-downloadButton = Button(root, padx=16, pady=16, font=("Agentcy FB",20,"bold"), text="DOWNLOAD", command=lambda: download())
+downloadButton = Button(root, padx=16, pady=16, font=font, text="DOWNLOAD", command=lambda: download())
 downloadButton.grid(row=2, column=0, sticky=S+N+E+W )
 
-statusLabel = Label(root, font=("Agentcy FB",20,"bold"), text="")
+statusLabel = Label(root, font=font, text="")
 statusLabel.grid(row=3, column=0, sticky=S+N+E+W )
 
 root.mainloop()
