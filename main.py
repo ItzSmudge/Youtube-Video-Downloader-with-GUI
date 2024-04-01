@@ -9,7 +9,7 @@ root = Tk()
 root.title("YouTube Video Downloader")
 root.resizable(False, False)
 
-font = ("Agentcy FB", 20, "bold")
+font = ("Roboto Mono", 20, "bold")
 def error():
 	statusLabel["text"] = "DOWNLOAD UNSUCCESSFUL! INVALID URL!"
 
